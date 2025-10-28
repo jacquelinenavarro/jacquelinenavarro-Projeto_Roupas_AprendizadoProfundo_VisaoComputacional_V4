@@ -1,0 +1,71 @@
+============================================================
+BLOCO 6: TREINAMENTO E COMPARAÇÃO DOS MODELOS
+Projeto: Reconhecimento de Roupas para Deficientes Visuais
+============================================================
+
+Device: cuda
+Número de classes: 17
+Épocas de treinamento: 10
+
+Modelos treinados:
+  - GOOGLENET
+  - RESNET50
+  - MOBILENET_V2
+  - EFFICIENTNET_B0
+
+============================================================
+RESULTADOS DOS MODELOS
+============================================================
+
+GOOGLENET:
+  Train Accuracy: 74.05%
+  Val Accuracy: 62.66%
+  Test Accuracy: 63.07%
+  Precision: 63.67%
+  Recall: 63.07%
+  F1-Score: 62.73%
+  Tempo: 955.0s
+
+RESNET50:
+  Train Accuracy: 74.51%
+  Val Accuracy: 64.17%
+  Test Accuracy: 66.84%
+  Precision: 68.71%
+  Recall: 66.84%
+  F1-Score: 65.85%
+  Tempo: 1060.0s
+
+MOBILENET_V2:
+  Train Accuracy: 80.17%
+  Val Accuracy: 66.20%
+  Test Accuracy: 67.48%
+  Precision: 68.59%
+  Recall: 67.48%
+  F1-Score: 67.22%
+  Tempo: 921.6s
+
+EFFICIENTNET_B0:
+  Train Accuracy: 89.53%
+  Val Accuracy: 70.85%
+  Test Accuracy: 70.79%
+  Precision: 70.45%
+  Recall: 70.79%
+  F1-Score: 70.26%
+  Tempo: 925.2s
+
+============================================================
+MELHOR MODELO: EFFICIENTNET_B0
+Acurácia de Teste: 70.79%
+============================================================
+
+Arquivos gerados:
+  - bloco06_historico_googlenet.png
+  - bloco06_matriz_confusao_googlenet.png
+  - bloco06_historico_resnet50.png
+  - bloco06_matriz_confusao_resnet50.png
+  - bloco06_historico_mobilenet_v2.png
+  - bloco06_matriz_confusao_mobilenet_v2.png
+  - bloco06_historico_efficientnet_b0.png
+  - bloco06_matriz_confusao_efficientnet_b0.png
+  - bloco06_tabela_comparacao_modelos.png
+  - bloco06_baseline_metrics.json

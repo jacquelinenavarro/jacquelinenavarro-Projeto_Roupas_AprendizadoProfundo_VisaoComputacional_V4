@@ -1,0 +1,44 @@
+============================================================
+PRÉ-PROCESSAMENTO DE DADOS - RESUMO
+============================================================
+
+ESTATÍSTICAS DO DATASET:
+  Total de imagens: 11484
+  Número de categorias: 17
+
+DISTRIBUIÇÃO POR CATEGORIA:
+  Blouses_Shirts                :  1526 imagens (13.29%)
+  Cardigans                     :   381 imagens ( 3.32%)
+  Denim                         :   161 imagens ( 1.40%)
+  Dresses                       :  2171 imagens (18.90%)
+  Graphic_Tees                  :   216 imagens ( 1.88%)
+  Jackets_Coats                 :   469 imagens ( 4.08%)
+  Jackets_Vests                 :    85 imagens ( 0.74%)
+  Leggings                      :    78 imagens ( 0.68%)
+  Pants                         :   658 imagens ( 5.73%)
+  Rompers_Jumpsuits             :   612 imagens ( 5.33%)
+  Shirts_Polos                  :   114 imagens ( 0.99%)
+  Shorts                        :   688 imagens ( 5.99%)
+  Skirts                        :   384 imagens ( 3.34%)
+  Suiting                       :     8 imagens ( 0.07%)
+  Sweaters                      :   751 imagens ( 6.54%)
+  Sweatshirts_Hoodies           :   297 imagens ( 2.59%)
+  Tees_Tanks                    :  2885 imagens (25.12%)
+
+DIVISÃO DO DATASET:
+  Treino:       8038 imagens (252 batches)
+  Validação:    1722 imagens (54 batches)
+  Teste:        1724 imagens (54 batches)
+  Batch size:   32
+
+TRANSFORMAÇÕES APLICADAS:
+  Treino: Resize, RandomCrop, RandomHorizontalFlip, RandomRotation, ColorJitter, Normalize
+  Val/Test: Resize, CenterCrop, Normalize
+
+ARQUIVOS GERADOS:
+  - bloco02_distribuicao_categorias.png
+  - bloco02_saida.txt
+
+============================================================
+PRÉ-PROCESSAMENTO CONCLUÍDO COM SUCESSO!
+============================================================

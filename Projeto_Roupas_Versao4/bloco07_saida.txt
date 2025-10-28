@@ -1,0 +1,109 @@
+============================================================
+RELATÓRIO FINAL DE OTIMIZAÇÃO - BLOCO 7
+EfficientNet-B0 Otimizado
+============================================================
+
+TÉCNICAS DE OTIMIZAÇÃO APLICADAS:
+
+1. Class Weighting:
+   - Balanceia classes desbalanceadas com pesos inversos
+
+2. Fine-tuning com Learning Rate baixo:
+   - Learning Rate: 0.0001
+
+3. ReduceLROnPlateau Scheduler:
+   - Reduz LR quando a Val Acc para de melhorar
+   - Fator: 0.5, Paciência: 3
+
+4. Data Augmentation Moderado:
+   - RandomHorizontalFlip, ColorJitter, RandomRotation
+   - Sem Mixup, sem RandAugment agressivo
+
+5. Regularização:
+   - Weight Decay: 0.0005
+   - Dropout: 0.2
+   - Gradient Clipping: max_norm=1.0
+
+6. Early Stopping Agressivo:
+   - Early Stopping Patience: 5
+
+7. Test-Time Augmentation (TTA) SIMPLIFICADO:
+   - TTA simples com apenas horizontal flip
+   - Melhoria: -0.06%
+
+============================================================
+CONFIGURAÇÃO DO TREINAMENTO
+============================================================
+
+Dataset: DeepFashion-1
+Total de imagens: 11484
+Número de classes: 17
+Divisão: 8038 treino, 1722 val, 1724 teste
+Batch size: 32
+Épocas treinadas: 17
+Device: cuda
+
+============================================================
+RESULTADOS FINAIS
+============================================================
+
+Train Accuracy: 99.89%
+Val Accuracy: 68.47%
+Test Accuracy (sem TTA): 69.20%
+Test Accuracy (com TTA): 69.14%
+F1-Score (sem TTA): 56.13%
+F1-Score (com TTA): 55.52%
+
+============================================================
+COMPARAÇÃO COM BASELINE
+============================================================
+
+Baseline (Original):
+  - Train Acc: 89.53%
+  - Val Acc: 70.85%
+  - Test Acc: 70.79%
+  - F1-Score: 70.26%
+
+Otimizado (com TTA):
+  - Train Acc: 99.89%
+  - Val Acc: 68.47%
+  - Test Acc: 69.14%
+  - F1-Score: 55.52%
+
+Melhoria em Test Accuracy: -1.65%
+Melhoria em F1-Score: -14.73%
+Overfitting Original: 18.68%
+Overfitting Otimizado: 31.42%
+Redução de Overfitting: -12.74%
+
+============================================================
+F1-SCORE POR CLASSE (TOP 10)
+============================================================
+
+Dresses             :  88.22% (n=2171)
+Rompers_Jumpsuits   :  80.49% (n=612)
+Tees_Tanks          :  70.73% (n=2885)
+Skirts              :  70.59% (n=384)
+Pants               :  69.61% (n=658)
+Shorts              :  65.56% (n=688)
+Blouses_Shirts      :  64.19% (n=1526)
+Jackets_Coats       :  62.77% (n=469)
+Jackets_Vests       :  59.26% (n=85)
+Sweaters            :  52.83% (n=751)
+
+============================================================
+CONCLUSÃO
+============================================================
+
+✗ O modelo otimizado apresentou PIORA de 1.65% em Test Accuracy
+✗ O overfitting AUMENTOU em 12.74%
+
+============================================================
+ARQUIVOS GERADOS
+============================================================
+
+- bloco07_tabela_comparacao_final.png
+- bloco07_f1_score_por_classe.png
+- bloco07_matriz_confusao_otimizada.png
+- bloco07_historico_treinamento.png
+- bloco07_saida.txt

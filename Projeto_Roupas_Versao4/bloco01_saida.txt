@@ -1,0 +1,42 @@
+============================================================
+BLOCO 1: PREPARAÇÃO DE DADOS - DEEPFASHION-1
+Projeto: Reconhecimento de Roupas para Deficientes Visuais
+============================================================
+
+Dataset: /kaggle/input/deepfashion-1
+Total de arquivos: 34465
+Total de imagens: 34452
+Total de categorias: 17
+
+Extensões encontradas:
+  .png: 34452 arquivos
+
+Total de diretórios: 10
+
+Distribuição de categorias:
+  Tees_Tanks: 8655 imagens
+  Dresses: 6513 imagens
+  Blouses_Shirts: 4578 imagens
+  Sweaters: 2253 imagens
+  Shorts: 2064 imagens
+  Pants: 1974 imagens
+  Rompers_Jumpsuits: 1836 imagens
+  Jackets_Coats: 1407 imagens
+  Skirts: 1152 imagens
+  Cardigans: 1143 imagens
+  Sweatshirts_Hoodies: 891 imagens
+  Graphic_Tees: 648 imagens
+  Denim: 483 imagens
+  Shirts_Polos: 342 imagens
+  Jackets_Vests: 255 imagens
+  Leggings: 234 imagens
+  Suiting: 24 imagens
+
+Arquivos gerados:
+  - bloco01_primeiras_10_imagens.png
+  - bloco01_distribuicao_categorias.png
+  - bloco01_saida.txt
+
+============================================================
+PREPARAÇÃO DE DADOS CONCLUÍDA COM SUCESSO!
+============================================================
