@@ -43,14 +43,13 @@ Artigo base: ["Blind People: Clothing Category Classification and Stain Detectio
 
 
 ## Assistência de Desenvolvimento
-Apoio à depuração e geração de trechos de código.
 
 Categoria | Ferramenta | Função
 --- | --- | ---
 Ambiente | Kaggle Notebooks | Treinamento com suporte a GPU (T4)
 Documentação | GitHub | Controle de versão e publicação do projeto
 Formatação | LaTeX (IEEEtran/SIBGRAPI) | Template de relatório científico
-Assistência de Desenvolvimento | Ferramentas de LLM | Apoio em depuração, revisão de código e ajuste de hiperparâmetros
+Assistência de Desenvolvimento | Ferramentas de LLM | Apoio em depuração, revisão de código e geração de trechos de código.
 Recursos Visuais | YouTube | Demonstração do protótipo
 
 
