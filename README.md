@@ -41,7 +41,7 @@ A proposta de uma aplicação acessível com feedback de áudio em tempo real fo
 
 ## 📚 Referência
 
-Artigo base: ["Blind People: Clothing Category Classification and Stain Detection"](https://doi.org/10.3390/app13031925) (2023)
+Artigo base: ["Blind People: Clothing Category Classification and Stain Detection Using Transfer Learning"](https://doi.org/10.3390/app13031925) (2023)
 
 
 ### 🛠️ Assistência de Desenvolvimento
