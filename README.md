@@ -5,6 +5,8 @@
 ---
 ## 👕 Classificação de Roupas para Pessoas com Deficiência Visual
 
+## 🌍 Motivação Pessoal & Relevância Social
+> Este projeto nasceu da minha participação no curso Recursos Educacionais Acessíveis (Instituto Benjamin Constant/MEC, 2023) e da inspiração em Geisa Farini, que evidenciou como desafios simples do cotidiano podem se tornar oportunidades de inclusão. Ao propor soluções acessíveis, reforça-se o papel da tecnologia como ferramenta de equidade, ampliando a autonomia e a participação social de pessoas com deficiência visual.
 
 ## 📌 Visão Geral
 
@@ -42,15 +44,15 @@ A proposta de uma aplicação acessível com feedback de áudio em tempo real fo
 Artigo base: ["Blind People: Clothing Category Classification and Stain Detection"](https://doi.org/10.3390/app13031925) (2023)
 
 
-## Assistência de Desenvolvimento
+### 🛠️ Assistência de Desenvolvimento
+| Categoria              | Ferramenta          | Função                                      |
+|------------------------|---------------------|---------------------------------------------|
+| Ambiente               | Kaggle Notebooks    | Treinamento com suporte a GPU (T4)          |
+| Documentação           | GitHub              | Controle de versão e publicação do projeto  |
+| Formatação             | LaTeX (IEEEtran/SIBGRAPI)    | Template de relatório científico            |
+| Assistência de Código  | Ferramentas de LLM  | Apoio em depuração e geração de trechos     |
+| Recursos Visuais       | YouTube             | Demonstração do protótipo                   |
 
-Categoria | Ferramenta | Função
---- | --- | ---
-Ambiente | Kaggle Notebooks | Treinamento com suporte a GPU (T4)
-Documentação | GitHub | Controle de versão e publicação do projeto
-Formatação | LaTeX (IEEEtran/SIBGRAPI) | Template de relatório científico
-Assistência de Desenvolvimento | Ferramentas de LLM | Apoio em depuração, revisão de código e geração de trechos de código.
-Recursos Visuais | YouTube | Demonstração do protótipo
 
 
 ## 🧪 Requisitos
