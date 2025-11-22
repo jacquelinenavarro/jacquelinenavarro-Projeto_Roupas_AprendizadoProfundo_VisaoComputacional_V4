@@ -41,6 +41,19 @@ A proposta de uma aplicação acessível com feedback de áudio em tempo real fo
 
 Artigo base: ["Blind People: Clothing Category Classification and Stain Detection"](https://doi.org/10.3390/app13031925) (2023)
 
+
+## Assistência de Desenvolvimento
+Apoio à depuração e geração de trechos de código.
+
+Categoria | Ferramenta | Função
+--- | --- | ---
+Ambiente | Kaggle Notebooks | Treinamento com suporte a GPU (T4)
+Documentação | GitHub | Controle de versão e publicação do projeto
+Formatação | LaTeX (IEEEtran/SIBGRAPI) | Template de relatório científico
+Assistência de Desenvolvimento | Ferramentas de LLM | Apoio em depuração, revisão de código e ajuste de hiperparâmetros
+Recursos Visuais | YouTube | Demonstração do protótipo
+
+
 ## 🧪 Requisitos
 
 ```python
