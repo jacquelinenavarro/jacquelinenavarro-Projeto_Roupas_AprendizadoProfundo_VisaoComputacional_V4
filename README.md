@@ -33,6 +33,13 @@
 - Multi-Label (categoria + cor) planejado para etapas futuras
 - Arquivos gerados: imagens, relatórios `.txt`, métricas `.json`, pacote `.zip`
 
+## 📌 Apresentação do Projeto
+
+Acesse a apresentação completa no Canva pelo link abaixo:
+
+👉 [Apresentação do Projeto](https://www.canva.com/design/DAG5S3EF53g/1MbIDbddyhAaLa7vTlfXtw/edit?utm_content=DAG5S3EF53g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
 ## 🎥 Protótipo Interativo
 
 Este [vídeo](https://youtu.be/B-2n7g2g7KY) apresenta uma versão inicial do protótipo desenvolvido com o notebook `app-streamlit-v2.ipynb`. O código completo está disponível no [GitHub](https://github.com/jacquelinenavarro/jacquelinenavarro-Projeto_Roupas_AprendizadoProfundo_VisaoComputacional_V4.git).
@@ -54,6 +61,8 @@ Artigo base: ["Blind People: Clothing Category Classification and Stain Detectio
 | Recursos Visuais       | YouTube             | Demonstração do protótipo                   |
 
 
+## 📌 Contribuição
+Sinta-se à vontade para abrir issues e enviar pull requests.
 
 ## 🧪 Requisitos
 
